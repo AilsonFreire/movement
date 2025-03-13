@@ -1362,7 +1362,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-skia (1.11.11):
+  - react-native-skia (1.2.1):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2188,7 +2188,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: a381120aea722d2244d4e4b663a10d4c3b2d4e51
   React-microtasksnativemodule: d9b946675010659cddd1c7611c074216579c8ad3
   react-native-safe-area-context: 0f16e24dc808e9f0ced17f2bdcec692b2376fb68
-  react-native-skia: f30213be39a6e0616883be599cd85e2d8b41ca69
+  react-native-skia: a884e65814d4c22e89fcea7a350b4b1c021ea4ac
   react-native-webview: 2ae666ce72cfd3c38d8750c2009f5caa621d709f
   react-native-worklets-core: 9f2e775f7cff4946ceeef9eb1e4888d24c0468dd
   React-nativeconfig: 67fa7a63ea288cb5b1d0dd2deaf240405fec164f

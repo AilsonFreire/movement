@@ -44,6 +44,8 @@ class PoseLandmarkerResultProcessor: NSObject, PoseLandmarkerLiveStreamDelegate 
         landmarkMap["x"] = poseMark.x
         landmarkMap["y"] = poseMark.y
         landmarkMap["z"] = poseMark.z
+        landmarkMap["visibility"] = poseMark.visibility
+        landmarkMap["presence"] = poseMark.presence
         poseArray.add(landmarkMap)
       }
       landmarksArray.add(poseArray)
@@ -86,6 +88,9 @@ class PoseLandmarks: RCTEventEmitter {
       let options = PoseLandmarkerOptions()
       options.baseOptions.modelAssetPath = modelPath ?? "pose_landmarker_lite.task"
       options.runningMode = .liveStream
+      options.minTrackingConfidence = 0.8
+      options.minPoseDetectionConfidence = 0.8
+      options.minPosePresenceConfidence = 0.8
       options.poseLandmarkerLiveStreamDelegate = resultProcessor
 
       try PoseLandmarkerHolder.shared.initializePoseLandmarker(with: options)
