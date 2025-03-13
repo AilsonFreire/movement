@@ -1,7 +1,23 @@
 import { Link } from "expo-router";
+import { useEffect } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
+import { useSharedValue, useWorklet } from "react-native-worklets-core";
 
 export default function Page() {
+	const something = useSharedValue(5);
+	const worklet = useWorklet("default", (value: number) => {
+		"worklet";
+		something.value = value;
+	});
+
+	console.log(something.value);
+
+	worklet(Math.random());
+
+	useEffect(() => {
+		console.log("useEffect", something.value);
+	}, [something.value]);
+	// worklet();
 	return (
 		//Very ugly and simple UI and style :)
 		<View
