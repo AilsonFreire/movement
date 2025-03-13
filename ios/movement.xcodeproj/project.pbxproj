@@ -12,10 +12,16 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		54D6A1BA2D82D8B2009D0E35 /* pose_landmarker_lite.task in Resources */ = {isa = PBXBuildFile; fileRef = 54D6A1B92D82D8B2009D0E35 /* pose_landmarker_lite.task */; };
+		54D6A1BD2D82DA26009D0E35 /* PoseLandmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D6A1BC2D82DA26009D0E35 /* PoseLandmarks.m */; };
+		54D6A1BF2D82DA41009D0E35 /* PoseLandmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D6A1BE2D82DA41009D0E35 /* PoseLandmarks.swift */; };
+		54D6A1C12D82DA6C009D0E35 /* PoseLandmarkerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D6A1C02D82DA6C009D0E35 /* PoseLandmarkerHolder.swift */; };
 		96905EF65AED1B983A6B3ABC /* libPods-movement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-movement.a */; };
 		AA3E7FEBCD714893A6C02D56 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA30B100ADA45F397F46BCF /* noop-file.swift */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		C7A3543A189B413D9F81F51D /* PoseLandmarksFrameProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6DC8DF5C0B43A29873E14E /* PoseLandmarksFrameProcessor.swift */; };
+		CE9F4E2159C24A698B20FD59 /* PoseLandmarksFrameProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 988CE7C957714C4A8917E2F2 /* PoseLandmarksFrameProcessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +31,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = movement/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = movement/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = movement/main.m; sourceTree = "<group>"; };
+		54D6A1B92D82D8B2009D0E35 /* pose_landmarker_lite.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = pose_landmarker_lite.task; sourceTree = "<group>"; };
+		54D6A1BC2D82DA26009D0E35 /* PoseLandmarks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoseLandmarks.m; sourceTree = "<group>"; };
+		54D6A1BE2D82DA41009D0E35 /* PoseLandmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseLandmarks.swift; sourceTree = "<group>"; };
+		54D6A1C02D82DA6C009D0E35 /* PoseLandmarkerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseLandmarkerHolder.swift; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-movement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-movement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6DC8DF5C0B43A29873E14E /* PoseLandmarksFrameProcessor.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; path = PoseLandmarksFrameProcessor.swift; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-movement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement.debug.xcconfig"; path = "Target Support Files/Pods-movement/Pods-movement.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-movement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement.release.xcconfig"; path = "Target Support Files/Pods-movement/Pods-movement.release.xcconfig"; sourceTree = "<group>"; };
 		84A05B94650B4E099E6F6431 /* movement-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "movement-Bridging-Header.h"; path = "movement/movement-Bridging-Header.h"; sourceTree = "<group>"; };
 		86E0A14B2360A2F7E27255E9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = movement/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		988CE7C957714C4A8917E2F2 /* PoseLandmarksFrameProcessor.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; path = PoseLandmarksFrameProcessor.m; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = movement/SplashScreen.storyboard; sourceTree = "<group>"; };
 		ABA30B100ADA45F397F46BCF /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "movement/noop-file.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
@@ -66,6 +78,15 @@
 			name = movement;
 			sourceTree = "<group>";
 		};
+		1FE36BC849F14AC49F3B7871 /* PoseLandmarksFrameProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				988CE7C957714C4A8917E2F2 /* PoseLandmarksFrameProcessor.m */,
+				5E6DC8DF5C0B43A29873E14E /* PoseLandmarksFrameProcessor.swift */,
+			);
+			path = PoseLandmarksFrameProcessor;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +94,15 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-movement.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54D6A1BB2D82D9D1009D0E35 /* PoseLandmarks */ = {
+			isa = PBXGroup;
+			children = (
+				54D6A1BC2D82DA26009D0E35 /* PoseLandmarks.m */,
+				54D6A1BE2D82DA41009D0E35 /* PoseLandmarks.swift */,
+			);
+			path = PoseLandmarks;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -85,12 +115,16 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				54D6A1C02D82DA6C009D0E35 /* PoseLandmarkerHolder.swift */,
+				54D6A1BB2D82D9D1009D0E35 /* PoseLandmarks */,
+				54D6A1B92D82D8B2009D0E35 /* pose_landmarker_lite.task */,
 				13B07FAE1A68108700A75B9A /* movement */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				1FE36BC849F14AC49F3B7871 /* PoseLandmarksFrameProcessor */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -200,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D6A1BA2D82D8B2009D0E35 /* pose_landmarker_lite.task in Resources */,
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
@@ -325,10 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D6A1C12D82DA6C009D0E35 /* PoseLandmarkerHolder.swift in Sources */,
+				54D6A1BD2D82DA26009D0E35 /* PoseLandmarks.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				54D6A1BF2D82DA41009D0E35 /* PoseLandmarks.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
 				AA3E7FEBCD714893A6C02D56 /* noop-file.swift in Sources */,
+				CE9F4E2159C24A698B20FD59 /* PoseLandmarksFrameProcessor.m in Sources */,
+				C7A3543A189B413D9F81F51D /* PoseLandmarksFrameProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,10 +498,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -516,10 +553,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

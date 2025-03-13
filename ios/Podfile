@@ -43,6 +43,8 @@ target 'movement' do
     :app_path => "#{Pod::Config.instance.installation_root}/..",
     :privacy_file_aggregation_enabled => podfile_properties['apple.privacyManifestAggregationEnabled'] != 'false',
   )
+  
+  pod 'MediaPipeTasksVision', '0.10.14'
 
   post_install do |installer|
     react_native_post_install(
