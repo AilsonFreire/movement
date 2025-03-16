@@ -2370,11 +2370,11 @@ index 0000000..3a67af9
 +		"source" : "."
 +	}
 +}
-diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-16T08-37-24-0712.json b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-16T08-37-24-0712.json
+diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-18T08-33-25-0447.json b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-18T08-33-25-0447.json
 new file mode 100644
 index 0000000..c8400af
 --- /dev/null
-+++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-16T08-37-24-0712.json
++++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.cmake/api/v1/reply/index-2025-03-18T08-33-25-0447.json
 @@ -0,0 +1,92 @@
 +{
 +	"cmake" : 
@@ -2811,28 +2811,28 @@ index 0000000..b980c4f
 +}
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_deps b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_deps
 new file mode 100644
-index 0000000..536793e
+index 0000000..0fbdde3
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_deps differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_log b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_log
 new file mode 100644
-index 0000000..3882f67
+index 0000000..8298da3
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/.ninja_log
 @@ -0,0 +1,14 @@
 +# ninja log v5
-+4	1128	1742114290832356122	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o	9102b640e67faf3d
-+2	1181	1742114290890416991	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o	240e8d5e0ebe15fb
-+1	1315	1742114291022411222	CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o	c38f7201c8982161
-+0	1560	1742114291260535875	CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o	874cfbaa4be1b98f
-+1	1570	1742114291272924344	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o	b95f2d68d92d5dfb
-+2	1953	1742114291657907640	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o	1a9181e3dd22ff90
-+3	2010	1742114291717365210	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o	64c7c2fd89a70737
-+1181	2031	1742114291739817746	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o	71787d1b8091be87
-+1	2151	1742114291856658564	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o	7dd85b98b680a11b
-+1	2154	1742114291860373750	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o	26e10d96dc1d37e6
-+1	2167	1742114291875288413	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameHostObject.cpp.o	ce9cf75cc1a0a81b
-+1130	2506	1742114292214102727	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraProxy.cpp.o	ba1bdb287e718004
-+2506	2584	1742114292276892569	../../../../build/intermediates/cxx/Debug/4h1s3r48/obj/arm64-v8a/libVisionCamera.so	2c3b2cd56f85722
++8	831	1742286843988371623	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o	240e8d5e0ebe15fb
++9	870	1742286844028883363	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o	9102b640e67faf3d
++1	916	1742286844071985858	CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o	c38f7201c8982161
++0	1244	1742286844400172712	CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o	874cfbaa4be1b98f
++2	1287	1742286844442075681	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o	b95f2d68d92d5dfb
++5	1678	1742286844828832235	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o	1a9181e3dd22ff90
++871	1705	1742286844862452526	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o	71787d1b8091be87
++9	1726	1742286844881095605	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o	64c7c2fd89a70737
++3	1843	1742286844997635890	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o	7dd85b98b680a11b
++4	1844	1742286844997103647	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o	26e10d96dc1d37e6
++0	1866	1742286845022958294	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameHostObject.cpp.o	ce9cf75cc1a0a81b
++834	2181	1742286845337972827	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraProxy.cpp.o	ba1bdb287e718004
++2181	2255	1742286845396545361	../../../../build/intermediates/cxx/Debug/4h1s3r48/obj/arm64-v8a/libVisionCamera.so	2c3b2cd56f85722
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeCache.txt b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeCache.txt
 new file mode 100644
 index 0000000..3892d93
@@ -5073,7 +5073,7 @@ index 0000000..3ecd3f5
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeOutput.log b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeOutput.log
 new file mode 100644
-index 0000000..adf558c
+index 0000000..48619b3
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeOutput.log
 @@ -0,0 +1,262 @@
@@ -5108,13 +5108,13 @@ index 0000000..adf558c
 +Detecting C compiler ABI info compiled with the following output:
 +Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp
 +
-+Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_fb3c7 && [1/2] Building C object CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o
++Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_8ac5c && [1/2] Building C object CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: aarch64-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
 + (in-process)
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 +clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
@@ -5124,12 +5124,12 @@ index 0000000..adf558c
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 +End of search list.
-+[2/2] Linking C executable cmTC_fb3c7
++[2/2] Linking C executable cmTC_8ac5c
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: aarch64-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fb3c7 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8ac5c /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o
 +
 +
 +
@@ -5150,13 +5150,13 @@ index 0000000..adf558c
 +  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
 +  ignore line: [Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp]
 +  ignore line: []
-+  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_fb3c7 && [1/2] Building C object CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o]
++  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_8ac5c && [1/2] Building C object CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: aarch64-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
 +  ignore line: [ (in-process)]
-+  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
++  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
 +  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
@@ -5166,12 +5166,12 @@ index 0000000..adf558c
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
 +  ignore line: [End of search list.]
-+  ignore line: [[2/2] Linking C executable cmTC_fb3c7]
++  ignore line: [[2/2] Linking C executable cmTC_8ac5c]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: aarch64-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-+  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fb3c7 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o]
++  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_8ac5c /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
 +    arg [--sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
 +    arg [-pie] ==> ignore
@@ -5187,7 +5187,7 @@ index 0000000..adf558c
 +    arg [-dynamic-linker] ==> ignore
 +    arg [/system/bin/linker64] ==> ignore
 +    arg [-o] ==> ignore
-+    arg [cmTC_fb3c7] ==> ignore
++    arg [cmTC_8ac5c] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o] ==> obj [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26]
@@ -5198,7 +5198,7 @@ index 0000000..adf558c
 +    arg [--no-undefined-version] ==> ignore
 +    arg [--fatal-warnings] ==> ignore
 +    arg [--no-undefined] ==> ignore
-+    arg [CMakeFiles/cmTC_fb3c7.dir/CMakeCCompilerABI.c.o] ==> ignore
++    arg [CMakeFiles/cmTC_8ac5c.dir/CMakeCCompilerABI.c.o] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
 +    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
 +    arg [-ldl] ==> lib [dl]
@@ -5222,13 +5222,13 @@ index 0000000..adf558c
 +Detecting CXX compiler ABI info compiled with the following output:
 +Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp
 +
-+Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_6619d && [1/2] Building CXX object CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o
++Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_cf079 && [1/2] Building CXX object CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: aarch64-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
 + (in-process)
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 +clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
@@ -5239,12 +5239,12 @@ index 0000000..adf558c
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 +End of search list.
-+[2/2] Linking CXX executable cmTC_6619d
++[2/2] Linking CXX executable cmTC_cf079
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: aarch64-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6619d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_cf079 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o
 +
 +
 +
@@ -5267,13 +5267,13 @@ index 0000000..adf558c
 +  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
 +  ignore line: [Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp]
 +  ignore line: []
-+  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_6619d && [1/2] Building CXX object CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o]
++  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_cf079 && [1/2] Building CXX object CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: aarch64-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
 +  ignore line: [ (in-process)]
-+  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
++  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
 +  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
@@ -5284,12 +5284,12 @@ index 0000000..adf558c
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
 +  ignore line: [End of search list.]
-+  ignore line: [[2/2] Linking CXX executable cmTC_6619d]
++  ignore line: [[2/2] Linking CXX executable cmTC_cf079]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: aarch64-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-+  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6619d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o]
++  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_cf079 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtend_android.o]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
 +    arg [--sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
 +    arg [-pie] ==> ignore
@@ -5305,7 +5305,7 @@ index 0000000..adf558c
 +    arg [-dynamic-linker] ==> ignore
 +    arg [/system/bin/linker64] ==> ignore
 +    arg [-o] ==> ignore
-+    arg [cmTC_6619d] ==> ignore
++    arg [cmTC_cf079] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o] ==> obj [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26/crtbegin_dynamic.o]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/aarch64]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/26]
@@ -5316,7 +5316,7 @@ index 0000000..adf558c
 +    arg [--no-undefined-version] ==> ignore
 +    arg [--fatal-warnings] ==> ignore
 +    arg [--no-undefined] ==> ignore
-+    arg [CMakeFiles/cmTC_6619d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
++    arg [CMakeFiles/cmTC_cf079.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
 +    arg [-lc++] ==> lib [c++]
 +    arg [-lm] ==> lib [m]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
@@ -5995,7 +5995,7 @@ index 0000000..9910f6f
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/compile_commands.json.bin differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/configure_fingerprint.bin b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/configure_fingerprint.bin
 new file mode 100644
-index 0000000..1ba257e
+index 0000000..903bdd9
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/configure_fingerprint.bin
 @@ -0,0 +1,30 @@
@@ -6003,32 +6003,32 @@ index 0000000..1ba257e
 +é
 +ã/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/additional_project_files.txtC
 +A
-+?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	çëÁŸ2 ıêÁŸ2é
++?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	Õ≥ã√⁄2  ≥ã√⁄2é
 +ã
-+à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/android_gradle_build.json	çëÁŸ2˚ ˚êÁŸ2ì
++à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/android_gradle_build.json	Õ≥ã√⁄2˚  ≥ã√⁄2ì
 +ê
-+ç/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/android_gradle_build_mini.json	çëÁŸ2… áëÁŸ2~
++ç/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/android_gradle_build_mini.json	Õ≥ã√⁄2… Ã≥ã√⁄2~
 +|
-+z/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build.ninja	çëÁŸ2ˆ‘ ·êÁŸ2É
++z/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build.ninja	Õ≥ã√⁄2ˆ‘ ¡≥ã√⁄2É
 +Ä
-+~/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build.ninja.txt	çëÁŸ2â
++~/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build.ninja.txt	Õ≥ã√⁄2â
 +Ü
-+É/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build_file_index.txt	çëÁŸ2º âëÁŸ2ä
++É/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/build_file_index.txt	Õ≥ã√⁄2º Ã≥ã√⁄2ä
 +á
-+Ñ/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/compile_commands.json	çëÁŸ2®› ‡êÁŸ2é
++Ñ/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/compile_commands.json	Õ≥ã√⁄2®› ¡≥ã√⁄2é
 +ã
-+à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/compile_commands.json.bin	çëÁŸ2	é( ‡êÁŸ2î
++à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/compile_commands.json.bin	Õ≥ã√⁄2	é( ¡≥ã√⁄2î
 +ë
-+é/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/metadata_generation_command.txt	çëÁŸ2
-+ì àëÁŸ2á
++é/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/metadata_generation_command.txt	Õ≥ã√⁄2
++ì Ã≥ã√⁄2á
 +Ñ
-+Å/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/prefab_config.json	çëÁŸ2Ÿ àëÁŸ2å
++Å/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/prefab_config.json	Õ≥ã√⁄2Ÿ Ã≥ã√⁄2å
 +â
-+Ü/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/symbol_folder_index.txt	çëÁŸ2Ö âëÁŸ2c
++Ü/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/symbol_folder_index.txt	Õ≥ã√⁄2Ö Ã≥ã√⁄2c
 +a
-+_/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt	çëÁŸ2‘ èƒŒœŸ2¡
++_/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt	Õ≥ã√⁄2‘ ÷ô«ÒŸ2¡
 +æ
-+ª/Users/ailsonfreire/Dev/movement/node_modules/react-native-worklets-core/android/build/intermediates/prefab_package_configuration/debug/prefabDebugConfigurePackage/prefab_publication.json	çëÁŸ2
++ª/Users/ailsonfreire/Dev/movement/node_modules/react-native-worklets-core/android/build/intermediates/prefab_package_configuration/debug/prefabDebugConfigurePackage/prefab_publication.json	Õ≥ã√⁄2
 \ No newline at end of file
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/metadata_generation_command.txt b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a/metadata_generation_command.txt
 new file mode 100644
@@ -8456,11 +8456,11 @@ index 0000000..3a67af9
 +		"source" : "."
 +	}
 +}
-diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-16T08-37-26-0194.json b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-16T08-37-26-0194.json
+diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-18T08-33-26-0194.json b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-18T08-33-26-0194.json
 new file mode 100644
 index 0000000..3f80362
 --- /dev/null
-+++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-16T08-37-26-0194.json
++++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.cmake/api/v1/reply/index-2025-03-18T08-33-26-0194.json
 @@ -0,0 +1,92 @@
 +{
 +	"cmake" : 
@@ -8897,28 +8897,28 @@ index 0000000..e4665f2
 +}
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_deps b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_deps
 new file mode 100644
-index 0000000..2799b7c
+index 0000000..8609e9b
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_deps differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_log b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_log
 new file mode 100644
-index 0000000..493c70b
+index 0000000..a1c8ebe
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/.ninja_log
 @@ -0,0 +1,14 @@
 +# ninja log v5
-+1	813	1742114293446645531	CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o	bb15757ce250b858
-+3	850	1742114293491231187	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o	f54885445addb27d
-+2	921	1742114293558920750	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o	7539582f51c31c0d
-+1	1201	1742114293841351516	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o	a9b884a850c40e82
-+0	1254	1742114293894496914	CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o	9860336e7c050d7c
-+2	1614	1742114294253250358	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o	74ec3d8f2a53a94d
-+3	1637	1742114294277844589	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o	85f171df0a9e3096
-+850	1723	1742114294362796968	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o	42037a058ad875b7
-+2	1724	1742114294360614106	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o	73ffa94ef939aab3
-+1	1790	1742114294428199669	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o	a6c7f89cc663d630
-+1	1832	1742114294472560826	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameHostObject.cpp.o	f35887d462edb9f5
-+815	2129	1742114294769087134	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraProxy.cpp.o	8a4931ba97381053
-+2129	2200	1742114294827127753	../../../../build/intermediates/cxx/Debug/4h1s3r48/obj/armeabi-v7a/libVisionCamera.so	544fa67afb296349
++5	963	1742286846714446538	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o	f54885445addb27d
++2	1011	1742286846762851752	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o	7539582f51c31c0d
++1	1059	1742286846812149538	CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o	bb15757ce250b858
++1	1608	1742286847360074433	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o	a9b884a850c40e82
++0	1628	1742286847379758082	CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o	9860336e7c050d7c
++3	2086	1742286847827488012	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o	85f171df0a9e3096
++1	2147	1742286847898061090	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o	74ec3d8f2a53a94d
++1011	2204	1742286847956137881	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o	42037a058ad875b7
++1	2291	1742286848042404745	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o	73ffa94ef939aab3
++1	2333	1742286848084093592	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o	a6c7f89cc663d630
++0	2353	1742286848104835351	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameHostObject.cpp.o	f35887d462edb9f5
++966	2676	1742286848427492947	CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraProxy.cpp.o	8a4931ba97381053
++2676	2797	1742286848538095104	../../../../build/intermediates/cxx/Debug/4h1s3r48/obj/armeabi-v7a/libVisionCamera.so	544fa67afb296349
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeCache.txt b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeCache.txt
 new file mode 100644
 index 0000000..4d14c64
@@ -11159,7 +11159,7 @@ index 0000000..0a61baa
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.o differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeOutput.log b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeOutput.log
 new file mode 100644
-index 0000000..8e23f29
+index 0000000..6752019
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeOutput.log
 @@ -0,0 +1,266 @@
@@ -11194,13 +11194,13 @@ index 0000000..8e23f29
 +Detecting C compiler ABI info compiled with the following output:
 +Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp
 +
-+Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_fa4e2 && [1/2] Building C object CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o
++Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_02a8d && [1/2] Building C object CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: armv7-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
 + (in-process)
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 +clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
@@ -11210,12 +11210,12 @@ index 0000000..8e23f29
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 +End of search list.
-+[2/2] Linking C executable cmTC_fa4e2
++[2/2] Linking C executable cmTC_02a8d
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: armv7-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_fa4e2 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_02a8d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
 +
 +
 +
@@ -11236,13 +11236,13 @@ index 0000000..8e23f29
 +  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
 +  ignore line: [Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp]
 +  ignore line: []
-+  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_fa4e2 && [1/2] Building C object CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o]
++  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_02a8d && [1/2] Building C object CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: armv7-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
 +  ignore line: [ (in-process)]
-+  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
++  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o -x c /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
 +  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
@@ -11252,12 +11252,12 @@ index 0000000..8e23f29
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi]
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
 +  ignore line: [End of search list.]
-+  ignore line: [[2/2] Linking C executable cmTC_fa4e2]
++  ignore line: [[2/2] Linking C executable cmTC_02a8d]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: armv7-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-+  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_fa4e2 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
++  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_02a8d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
 +    arg [--sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
 +    arg [-pie] ==> ignore
@@ -11273,7 +11273,7 @@ index 0000000..8e23f29
 +    arg [-dynamic-linker] ==> ignore
 +    arg [/system/bin/linker] ==> ignore
 +    arg [-o] ==> ignore
-+    arg [cmTC_fa4e2] ==> ignore
++    arg [cmTC_02a8d] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o] ==> obj [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
@@ -11285,7 +11285,7 @@ index 0000000..8e23f29
 +    arg [--no-undefined-version] ==> ignore
 +    arg [--fatal-warnings] ==> ignore
 +    arg [--no-undefined] ==> ignore
-+    arg [CMakeFiles/cmTC_fa4e2.dir/CMakeCCompilerABI.c.o] ==> ignore
++    arg [CMakeFiles/cmTC_02a8d.dir/CMakeCCompilerABI.c.o] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
 +    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
 +    arg [-ldl] ==> lib [dl]
@@ -11310,13 +11310,13 @@ index 0000000..8e23f29
 +Detecting CXX compiler ABI info compiled with the following output:
 +Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp
 +
-+Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_f8630 && [1/2] Building CXX object CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o
++Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_1349d && [1/2] Building CXX object CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: armv7-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
 + (in-process)
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 +clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"
 +ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
@@ -11327,12 +11327,12 @@ index 0000000..8e23f29
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi
 + /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
 +End of search list.
-+[2/2] Linking CXX executable cmTC_f8630
++[2/2] Linking CXX executable cmTC_1349d
 +Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
 +Target: armv7-none-linux-android26
 +Thread model: posix
 +InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin
-+ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f8630 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
++ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_1349d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o
 +
 +
 +
@@ -11355,13 +11355,13 @@ index 0000000..8e23f29
 +  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
 +  ignore line: [Change Dir: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp]
 +  ignore line: []
-+  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_f8630 && [1/2] Building CXX object CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o]
++  ignore line: [Run Build Command(s):/Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/bin/ninja cmTC_1349d && [1/2] Building CXX object CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: armv7-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
 +  ignore line: [ (in-process)]
-+  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
++  ignore line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android26 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -resource-dir /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17 -dependency-file CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/include -internal-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -O2 -Wformat -Wall -Wno-unused-variable -fdeprecated-macro -fdebug-compilation-dir=/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 3 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/ailsonfreire/Library/Android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
 +  ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-apple-darwin24.3.0]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include"]
 +  ignore line: [ignoring nonexistent directory "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
@@ -11372,12 +11372,12 @@ index 0000000..8e23f29
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/arm-linux-androideabi]
 +  ignore line: [ /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
 +  ignore line: [End of search list.]
-+  ignore line: [[2/2] Linking CXX executable cmTC_f8630]
++  ignore line: [[2/2] Linking CXX executable cmTC_1349d]
 +  ignore line: [Android (10552028  +pgo  +bolt  +lto  -mlgo  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
 +  ignore line: [Target: armv7-none-linux-android26]
 +  ignore line: [Thread model: posix]
 +  ignore line: [InstalledDir: /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin]
-+  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_f8630 /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
++  link line: [ "/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld" --sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -EL -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_1349d /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26 -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/../lib -L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtend_android.o]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/ld.lld] ==> ignore
 +    arg [--sysroot=/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
 +    arg [-pie] ==> ignore
@@ -11393,7 +11393,7 @@ index 0000000..8e23f29
 +    arg [-dynamic-linker] ==> ignore
 +    arg [/system/bin/linker] ==> ignore
 +    arg [-o] ==> ignore
-+    arg [cmTC_f8630] ==> ignore
++    arg [cmTC_1349d] ==> ignore
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o] ==> obj [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26/crtbegin_dynamic.o]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/arm]
 +    arg [-L/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26] ==> dir [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/26]
@@ -11405,7 +11405,7 @@ index 0000000..8e23f29
 +    arg [--no-undefined-version] ==> ignore
 +    arg [--fatal-warnings] ==> ignore
 +    arg [--no-undefined] ==> ignore
-+    arg [CMakeFiles/cmTC_f8630.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
++    arg [CMakeFiles/cmTC_1349d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
 +    arg [-lc++] ==> lib [c++]
 +    arg [-lm] ==> lib [m]
 +    arg [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/Users/ailsonfreire/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-arm-android.a]
@@ -12085,7 +12085,7 @@ index 0000000..7ce1ba0
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/compile_commands.json.bin differ
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/configure_fingerprint.bin b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/configure_fingerprint.bin
 new file mode 100644
-index 0000000..9449d6b
+index 0000000..08b4ce8
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/configure_fingerprint.bin
 @@ -0,0 +1,30 @@
@@ -12093,32 +12093,32 @@ index 0000000..9449d6b
 +ê
 +ç/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/additional_project_files.txtC
 +A
-+?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	ÕúÁŸ2 ΩúÁŸ2ê
++?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	ªπã√⁄2 ∂πã√⁄2ê
 +ç
-+ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/android_gradle_build.json	ÕúÁŸ2ï ƒúÁŸ2ï
++ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/android_gradle_build.json	ªπã√⁄2ï ∑πã√⁄2ï
 +í
-+è/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/android_gradle_build_mini.json	ÕúÁŸ2„ …úÁŸ2Ä
++è/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/android_gradle_build_mini.json	ªπã√⁄2„ ππã√⁄2Ä
 +~
-+|/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build.ninja	ÕúÁŸ2˜◊ ™úÁŸ2Ü
++|/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build.ninja	ªπã√⁄2˜◊ ¶πã√⁄2Ü
 +É
-+Ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build.ninja.txt	ŒúÁŸ2ã
++Ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build.ninja.txt	ªπã√⁄2ã
 +à
-+Ö/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build_file_index.txt	ŒúÁŸ2∆ ÀúÁŸ2å
++Ö/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/build_file_index.txt	ªπã√⁄2∆ ∫πã√⁄2å
 +â
-+Ü/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/compile_commands.json	ŒúÁŸ2Ïﬂ ©úÁŸ2ê
++Ü/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/compile_commands.json	ªπã√⁄2Ïﬂ •πã√⁄2ê
 +ç
-+ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/compile_commands.json.bin	ŒúÁŸ2	∑( ©úÁŸ2ñ
++ä/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/compile_commands.json.bin	ªπã√⁄2	∑( •πã√⁄2ñ
 +ì
-+ê/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/metadata_generation_command.txt	ŒúÁŸ2
-+ü  úÁŸ2â
++ê/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/metadata_generation_command.txt	ªπã√⁄2
++ü ∫πã√⁄2â
 +Ü
-+É/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/prefab_config.json	ŒúÁŸ2Ÿ ÀúÁŸ2é
++É/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/prefab_config.json	ªπã√⁄2Ÿ ∫πã√⁄2é
 +ã
-+à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/symbol_folder_index.txt	ŒúÁŸ2á ÀúÁŸ2c
++à/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/symbol_folder_index.txt	ªπã√⁄2á ∫πã√⁄2c
 +a
-+_/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt	ŒúÁŸ2‘ èƒŒœŸ2¡
++_/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt	ªπã√⁄2‘ ÷ô«ÒŸ2¡
 +æ
-+ª/Users/ailsonfreire/Dev/movement/node_modules/react-native-worklets-core/android/build/intermediates/prefab_package_configuration/debug/prefabDebugConfigurePackage/prefab_publication.json	ŒúÁŸ2
++ª/Users/ailsonfreire/Dev/movement/node_modules/react-native-worklets-core/android/build/intermediates/prefab_package_configuration/debug/prefabDebugConfigurePackage/prefab_publication.json	ªπã√⁄2
 \ No newline at end of file
 diff --git a/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/metadata_generation_command.txt b/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a/metadata_generation_command.txt
 new file mode 100644
@@ -15100,19 +15100,19 @@ new file mode 100644
 index 0000000..e69de29
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/build_stdout_VisionCamera.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/build_stdout_VisionCamera.txt
 new file mode 100644
-index 0000000..d557151
+index 0000000..f023ca6
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/build_stdout_VisionCamera.txt
 @@ -0,0 +1,14 @@
 +ninja: Entering directory `/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a'
-+[1/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o
-+[2/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o
++[1/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o
++[2/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o
 +[3/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o
 +[4/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o
 +[5/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o
 +[6/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o
-+[7/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o
-+[8/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o
++[7/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o
++[8/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o
 +[9/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o
 +[10/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o
 +[11/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameHostObject.cpp.o
@@ -15175,28 +15175,25 @@ index 0000000..5ae9d53
 +-- Configuring done
 +-- Generating done
 +-- Build files have been written to: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/arm64-v8a
-diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_3201_timing.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_3201_timing.txt
+diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_1016_timing.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_1016_timing.txt
 new file mode 100644
-index 0000000..29b373a
+index 0000000..62fb5ce
 --- /dev/null
-+++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_3201_timing.txt
-@@ -0,0 +1,13 @@
++++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/generate_cxx_metadata_1016_timing.txt
+@@ -0,0 +1,10 @@
 +# C/C++ build system timings
 +generate_cxx_metadata
 +  generate-prefab-packages
-+    [gap of 10ms]
-+    exec-prefab 653ms
-+  generate-prefab-packages completed in 667ms
++    exec-prefab 395ms
++  generate-prefab-packages completed in 400ms
 +  execute-generate-process
-+    exec-configure 758ms
-+    [gap of 17ms]
-+  execute-generate-process completed in 776ms
-+  [gap of 15ms]
-+generate_cxx_metadata completed in 1466ms
++    exec-configure 383ms
++  execute-generate-process completed in 386ms
++generate_cxx_metadata completed in 790ms
 +
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/metadata_generation_record.json b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/metadata_generation_record.json
 new file mode 100644
-index 0000000..d919177
+index 0000000..aa0a999
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/metadata_generation_record.json
 @@ -0,0 +1,184 @@
@@ -15242,7 +15239,7 @@ index 0000000..d919177
 +  },
 +  {
 +    "level_": 0,
-+    "message_": "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java \\\n  --class-path \\\n  /Users/ailsonfreire/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  arm64-v8a \\\n  --os-version \\\n  26 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  26 \\\n  --output \\\n  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging3320711061699550007/staged-cli-output \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \\\n  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/2a132x1g \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab\n",
++    "message_": "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java \\\n  --class-path \\\n  /Users/ailsonfreire/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  arm64-v8a \\\n  --os-version \\\n  26 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  26 \\\n  --output \\\n  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging2233874388886479553/staged-cli-output \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \\\n  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/2a132x1g \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab\n",
 +    "file_": "/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt",
 +    "tag_": "debug|arm64-v8a",
 +    "diagnosticCode_": 0,
@@ -15387,7 +15384,7 @@ index 0000000..d919177
 \ No newline at end of file
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/prefab_command b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/prefab_command
 new file mode 100755
-index 0000000..bdb642a
+index 0000000..80652f8
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/arm64-v8a/prefab_command
 @@ -0,0 +1,21 @@
@@ -15408,7 +15405,7 @@ index 0000000..bdb642a
 +  --ndk-version \
 +  26 \
 +  --output \
-+  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging3320711061699550007/staged-cli-output \
++  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging2233874388886479553/staged-cli-output \
 +  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \
 +  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/2a132x1g \
 +  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab
@@ -15643,18 +15640,18 @@ new file mode 100644
 index 0000000..e69de29
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/build_stdout_VisionCamera.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/build_stdout_VisionCamera.txt
 new file mode 100644
-index 0000000..fbe1d1b
+index 0000000..4cb9e75
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/build_stdout_VisionCamera.txt
 @@ -0,0 +1,14 @@
 +ninja: Entering directory `/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a'
-+[1/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o
-+[2/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o
-+[3/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o
++[1/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessorPlugin.cpp.o
++[2/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrame.cpp.o
++[3/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/MutableJByteBuffer.cpp.o
 +[4/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/FrameProcessorPluginHostObject.cpp.o
 +[5/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/VisionCamera.cpp.o
-+[6/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o
-+[7/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o
++[6/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JFrameProcessor.cpp.o
++[7/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JSharedArray.cpp.o
 +[8/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/java-bindings/JVisionCameraScheduler.cpp.o
 +[9/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/VisionCameraProxy.cpp.o
 +[10/13] Building CXX object CMakeFiles/VisionCamera.dir/src/main/cpp/frameprocessors/JSIJNIConversion.cpp.o
@@ -15718,27 +15715,25 @@ index 0000000..3718e8e
 +-- Configuring done
 +-- Generating done
 +-- Build files have been written to: /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/.cxx/Debug/4h1s3r48/armeabi-v7a
-diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_3201_timing.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_3201_timing.txt
+diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_1016_timing.txt b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_1016_timing.txt
 new file mode 100644
-index 0000000..15e3be8
+index 0000000..509484b
 --- /dev/null
-+++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_3201_timing.txt
-@@ -0,0 +1,12 @@
++++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/generate_cxx_metadata_1016_timing.txt
+@@ -0,0 +1,10 @@
 +# C/C++ build system timings
 +generate_cxx_metadata
 +  generate-prefab-packages
-+    exec-prefab 762ms
-+  generate-prefab-packages completed in 776ms
++    exec-prefab 362ms
++  generate-prefab-packages completed in 367ms
 +  execute-generate-process
-+    exec-configure 633ms
-+    [gap of 16ms]
-+  execute-generate-process completed in 652ms
-+  [gap of 13ms]
-+generate_cxx_metadata completed in 1445ms
++    exec-configure 370ms
++  execute-generate-process completed in 375ms
++generate_cxx_metadata completed in 746ms
 +
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/metadata_generation_record.json b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/metadata_generation_record.json
 new file mode 100644
-index 0000000..8c910fb
+index 0000000..4792561
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/metadata_generation_record.json
 @@ -0,0 +1,184 @@
@@ -15784,7 +15779,7 @@ index 0000000..8c910fb
 +  },
 +  {
 +    "level_": 0,
-+    "message_": "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java \\\n  --class-path \\\n  /Users/ailsonfreire/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  armeabi-v7a \\\n  --os-version \\\n  26 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  26 \\\n  --output \\\n  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging10445208296405832353/staged-cli-output \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \\\n  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/6eq5n696 \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab\n",
++    "message_": "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java \\\n  --class-path \\\n  /Users/ailsonfreire/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  armeabi-v7a \\\n  --os-version \\\n  26 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  26 \\\n  --output \\\n  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging3458677117461734444/staged-cli-output \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \\\n  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/6eq5n696 \\\n  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab\n",
 +    "file_": "/Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/CMakeLists.txt",
 +    "tag_": "debug|armeabi-v7a",
 +    "diagnosticCode_": 0,
@@ -15929,7 +15924,7 @@ index 0000000..8c910fb
 \ No newline at end of file
 diff --git a/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/prefab_command b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/prefab_command
 new file mode 100755
-index 0000000..c2162c1
+index 0000000..bc684d2
 --- /dev/null
 +++ b/node_modules/react-native-vision-camera/android/build/intermediates/cxx/Debug/4h1s3r48/logs/armeabi-v7a/prefab_command
 @@ -0,0 +1,21 @@
@@ -15950,7 +15945,7 @@ index 0000000..c2162c1
 +  --ndk-version \
 +  26 \
 +  --output \
-+  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging10445208296405832353/staged-cli-output \
++  /var/folders/f7/gwskmx9s15gcwf8pbhpcfbjw0000gn/T/agp-prefab-staging3458677117461734444/staged-cli-output \
 +  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/d1ab2155b539508f564b7247055e2db0/transformed/react-android-0.76.7-debug/prefab \
 +  /Users/ailsonfreire/Dev/movement/node_modules/react-native-vision-camera/android/build/intermediates/cxx/refs/react-native-worklets-core/6eq5n696 \
 +  /Users/ailsonfreire/.gradle/caches/8.10.2/transforms/14479106fc9c285034fe5188965917a6/transformed/fbjni-0.6.0/prefab
@@ -19805,10 +19800,10 @@ new file mode 100644
 index 0000000..7b8bd0a
 Binary files /dev/null and b/node_modules/react-native-vision-camera/android/build/tmp/kotlin-classes/debug/com/mrousavy/camera/react/utils/WithPromiseKt.class differ
 diff --git a/node_modules/react-native-vision-camera/src/skia/useSkiaFrameProcessor.ts b/node_modules/react-native-vision-camera/src/skia/useSkiaFrameProcessor.ts
-index 62e27d3..52c4444 100644
+index 62e27d3..fc4af0c 100644
 --- a/node_modules/react-native-vision-camera/src/skia/useSkiaFrameProcessor.ts
 +++ b/node_modules/react-native-vision-camera/src/skia/useSkiaFrameProcessor.ts
-@@ -88,19 +88,18 @@ function withRotatedFrame(frame: Frame, canvas: SkCanvas, previewOrientation: Or
+@@ -88,19 +88,19 @@ function withRotatedFrame(frame: Frame, canvas: SkCanvas, previewOrientation: Or
  
    try {
      // 2. properly rotate canvas so Frame is rendered up-right.
@@ -19817,12 +19812,13 @@ index 62e27d3..52c4444 100644
 +    switch (frame.orientation) {
        case 'portrait':
 -        // do nothing
-+          canvas.translate( 0,frame.height / 2)
++          canvas.translate(90,frame.height / 2)
          break
        case 'landscape-left':
          // rotate two flips on (0,0) origin and move X + Y into view again
 -        canvas.translate(frame.height, frame.width)
-+        canvas.translate(0, frame.width)
++        canvas.scale(-1, 1); // Flip the canvas horizontally
++        canvas.translate(-frame.height, frame.width); // Adjust the canvas position after flipping
          canvas.rotate(270, 0, 0)
          break
        case 'portrait-upside-down':
@@ -19832,7 +19828,7 @@ index 62e27d3..52c4444 100644
          canvas.rotate(180, 0, 0)
          break
        case 'landscape-right':
-@@ -111,7 +110,6 @@ function withRotatedFrame(frame: Frame, canvas: SkCanvas, previewOrientation: Or
+@@ -111,7 +111,6 @@ function withRotatedFrame(frame: Frame, canvas: SkCanvas, previewOrientation: Or
        default:
          throw new Error(`Invalid frame.orientation: ${frame.orientation}!`)
      }

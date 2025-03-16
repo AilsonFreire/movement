@@ -2,6 +2,7 @@ package com.ailsonfreire.movement
 
 import android.app.Application
 import android.content.res.Configuration
+import com.ailsonfreire.movement.handlandmarksframeprocessor.HandLandmarksFrameProcessorPluginPackage
 
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
@@ -25,6 +26,8 @@ class MainApplication : Application(), ReactApplication {
             val packages = PackageList(this).packages
             // Packages that cannot be autolinked yet can be added manually here, for example:
             // packages.add(new MyReactNativePackage());
+            packages.add(HandLandmarksFrameProcessorPluginPackage())
+            packages.add(HandLandmarksPackage())
             return packages
           }
 

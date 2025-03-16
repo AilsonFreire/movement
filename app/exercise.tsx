@@ -85,6 +85,7 @@ export default function Exercise() {
 
 	useEffect(() => {
 		// Set up the event listener to listen for hand landmarks detection results
+
 		const subscription = handLandmarksEmitter.addListener(
 			"onHandLandmarksDetected",
 			// setLandmarks
@@ -119,36 +120,39 @@ export default function Exercise() {
 		return landmarks.value != null && Object.keys(landmarks.value).length > 0;
 	};
 
-	const frameProcessor = useSkiaFrameProcessor((frame) => {
-		"worklet";
-		frame.render();
-		// 	handLandmarks(frame);
+	const frameProcessor = useSkiaFrameProcessor(
+		(frame) => {
+			"worklet";
+			frame.render();
+			handLandmarks(frame);
 
-		// 	if (hasKeypoints()) {
-		// 		const hand = landmarks.value;
-		// 		const frameWidth = frame.width;
-		// 		const frameHeight = frame.height;
-		// 		// Draw lines connecting landmarks
-		// 		for (let [from, to] of lines) {
-		// 			frame.drawLine(
-		// 				hand[from].x * Number(frameWidth),
-		// 				hand[from].y * Number(frameHeight),
-		// 				hand[to].x * Number(frameWidth),
-		// 				hand[to].y * Number(frameHeight),
-		// 				linePaint
-		// 			);
-		// 		}
-		// 		// Draw circles on landmarks
-		// 		for (let mark of Object.values(hand)) {
-		// 			frame.drawCircle(
-		// 				mark.x * Number(frameWidth),
-		// 				mark.y * Number(frameHeight),
-		// 				6,
-		// 				circlePaint
-		// 			);
-		// 		}
-		// 	}
-	}, []);
+			if (hasKeypoints()) {
+				const hand = landmarks.value;
+				const frameWidth = frame.width;
+				const frameHeight = frame.height;
+				// Draw lines connecting landmarks
+				for (let [from, to] of lines) {
+					frame.drawLine(
+						hand[from].x * Number(frameWidth),
+						hand[from].y * Number(frameHeight),
+						hand[to].x * Number(frameWidth),
+						hand[to].y * Number(frameHeight),
+						linePaint
+					);
+				}
+				// Draw circles on landmarks
+				for (let mark of Object.values(hand)) {
+					frame.drawCircle(
+						mark.x * Number(frameWidth),
+						mark.y * Number(frameHeight),
+						6,
+						circlePaint
+					);
+				}
+			}
+		},
+		[hasKeypoints]
+	);
 
 	if (!hasPermission) {
 		// Display message if camera permission is not granted
