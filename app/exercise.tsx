@@ -11,6 +11,7 @@ import {
 	Frame,
 	useCameraDevice,
 	useCameraPermission,
+	useFrameProcessor,
 	useSkiaFrameProcessor,
 	VisionCameraProxy,
 } from "react-native-vision-camera";
@@ -118,40 +119,36 @@ export default function Exercise() {
 		return landmarks.value != null && Object.keys(landmarks.value).length > 0;
 	};
 
-	const frameProcessor = useSkiaFrameProcessor(
-		(frame) => {
-			"worklet";
-			frame.render();
+	const frameProcessor = useSkiaFrameProcessor((frame) => {
+		"worklet";
+		frame.render();
+		// 	handLandmarks(frame);
 
-			handLandmarks(frame);
-
-			if (hasKeypoints()) {
-				const hand = landmarks.value;
-				const frameWidth = frame.width;
-				const frameHeight = frame.height;
-				// Draw lines connecting landmarks
-				for (let [from, to] of lines) {
-					frame.drawLine(
-						hand[from].x * Number(frameWidth),
-						hand[from].y * Number(frameHeight),
-						hand[to].x * Number(frameWidth),
-						hand[to].y * Number(frameHeight),
-						linePaint
-					);
-				}
-				// Draw circles on landmarks
-				for (let mark of Object.values(hand)) {
-					frame.drawCircle(
-						mark.x * Number(frameWidth),
-						mark.y * Number(frameHeight),
-						6,
-						circlePaint
-					);
-				}
-			}
-		},
-		[hasKeypoints]
-	);
+		// 	if (hasKeypoints()) {
+		// 		const hand = landmarks.value;
+		// 		const frameWidth = frame.width;
+		// 		const frameHeight = frame.height;
+		// 		// Draw lines connecting landmarks
+		// 		for (let [from, to] of lines) {
+		// 			frame.drawLine(
+		// 				hand[from].x * Number(frameWidth),
+		// 				hand[from].y * Number(frameHeight),
+		// 				hand[to].x * Number(frameWidth),
+		// 				hand[to].y * Number(frameHeight),
+		// 				linePaint
+		// 			);
+		// 		}
+		// 		// Draw circles on landmarks
+		// 		for (let mark of Object.values(hand)) {
+		// 			frame.drawCircle(
+		// 				mark.x * Number(frameWidth),
+		// 				mark.y * Number(frameHeight),
+		// 				6,
+		// 				circlePaint
+		// 			);
+		// 		}
+		// 	}
+	}, []);
 
 	if (!hasPermission) {
 		// Display message if camera permission is not granted
@@ -172,6 +169,8 @@ export default function Exercise() {
 			isActive={true}
 			frameProcessor={frameProcessor}
 			pixelFormat={pixelFormat}
+			outputOrientation="device"
+			photoQualityBalance="speed"
 		/>
 	);
 }

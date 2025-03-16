@@ -2,8 +2,11 @@ import { Link } from "expo-router";
 import { useEffect } from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import { useSharedValue, useWorklet } from "react-native-worklets-core";
+import * as SplashScreen from "expo-splash-screen";
 
 export default function Page() {
+	SplashScreen.hideAsync();
+
 	const something = useSharedValue(5);
 	const worklet = useWorklet("default", (value: number) => {
 		"worklet";
